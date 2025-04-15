@@ -9,27 +9,7 @@ from PIL import Image, ImageTk
 
 # Server configurations (replace with your server details)
 SERVERS = {
-    "H600099": {"type": "sftp", "host": "tenantportal.arc4u.com.sg", "username": "6000999", "password": "Van99uFD"},
-    "5000300": {"type": "sftp", "host": "fplsinpossftp01.frasersproperty.com", "username": "5000300", "password": "57MTcFbE"},
-    "H600043": {"type": "sftp", "host": "fplsinpossftp01.frasersproperty.com", "username": "6000433", "password": "qkj*ghds)mnzr*lk"},
-    "2000117": {"type": "sftp", "host": "ftp.jurongpoint.com.sg", "username": "2000117","password": "en33gw75"},
-    "8000860": {"type": "sftp", "host": "sftp.nex.com.sg", "username": "8000860", "password": "SKvRKX8G!quAj@MF"},
-    "D250010": {"type": "sftp2222", "host": "isendit.capitaland.com", "username": "dts_pos2500100_p", "password": "NewPass@23"},
-    "8000816": {"type": "sftp", "host": "post.apmasia.com.sg", "username": "8000816", "password": "MUW69599"},
-    "8000784": {"type": "sftp", "host": "sftp.nex.com.sg", "username": "8000784", "password": "Gb5#3nztNKCeRMad"},
-    "5000617": {"type": "sftp", "host": "203.125.245.122", "username": "5000617", "password": "Fxe$w9y&"},
-    "5000603": {"type": "sftp", "host": "203.125.245.122", "username": "5000603", "password": "P)*8$78v"},
-    "0400758": {"type": "sftp1", "host": "isendit.capitaland.com", "username": "dts_pos0400758_p", "password": "mEa$C54jRh"},
-    "1500204": {"type": "sftp2", "host": "isendit.capitaland.com", "username": "dts_pos1500204_p", "password": "MUW69599"},
-    "3000347": {"type": "ftp", "host": "tenant.313somerset.com.sg", "username": "3000347", "password": "djfexvja"},
-    "3000416": {"type": "sftp", "host": "tenant.313somerset.com.sg", "username": "3000416", "password": "gyk2djvs"},
-    "5000393": {"type": "ftp", "host": "203.125.245.122", "username": "5000393", "password": "6s5x7y8s"},
-    "6000784": {"type": "ftp", "host": "tenantportal.arc4u.com.sg", "username": "6000784", "password": "vbc784up"},
-    "6000999": {"type": "sftp", "host": "tenantportal.arc4u.com.sg", "username": "6000999", "password": "Van99uFD"},
-    "2010012": {"type": "sftp", "host": "fplsinpossftp01.frasersproperty.com", "username": "20100121", "password": "xx87kx87"},
-    "8000092": {"type": "ftp", "host": "wismapos.starhillglobalreit.com.sg", "username": "8000092", "password": "bftr45h3"},
-    "8000145": {"type": "ftp", "host": "wismapos.starhillglobalreit.com.sg", "username": "8000145","password": "may205wa"},
-    "8000239": {"type": "ftp", "host": "wismapos.starhillglobalreit.com.sg", "username": "8000239", "password": "v9zail96"},
+ 
 }
 
 class FileUploaderApp:
